@@ -1,0 +1,150 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 42px;
+  background: #171717;
+  border: 1px solid #27272A;
+  margin-top: -100px;
+  border-radius: 14px;
+  height: 350px;
+  min-height: 350px;
+}
+
+.about .left {
+  text-align: left;
+  flex: 1;
+  min-width: 300px;
+}
+
+.about .left button.email,
+.about .left button.resume {
+  color: #BDBDBD;
+  border: 1px solid #27272A;
+  background: #171717;
+}
+
+.about .left button.email:hover,
+.about .left button.resume:hover {
+  background: #000;
+  cursor: pointer;
+}
+
+.about .left h3 {
+  font-family: italic;
+  margin-bottom: 20px;
+}
+
+.about .icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.about .icons .icon:hover {
+  cursor: pointer;
+}
+
+.about .icons button {
+  height: 20px;
+  font-size: 10px;
+}
+
+.about .right {
+  padding-left: 200px;
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about .online {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #171717;
+  border: 1px solid #27272A;
+  padding: 4px 15px;
+  border-radius: 14px;
+  font-size: 13px;
+}
+
+.about .right a.online i,
+footer a.online i {
+  color: #4CAF50;
+  font-size: 9px;
+}
+
+.about .right img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 8px solid #2c2c2c;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+@media (max-width: 1200px) {
+  .about {
+    padding: 40px 30px;
+  }
+
+  .about .right {
+    padding-left: 100px;
+  }
+}
+
+@media (max-width: 992px) {
+  .about {
+    padding: 30px 20px;
+  }
+
+  .about .right {
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+  }
+
+  .about .left,
+  .about .right {
+    padding-left: 0;
+    min-width: auto;
+    width: 100%;
+  }
+
+  .about .right {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .about {
+    padding: 10px 5px;
+  }
+
+  .about .left h1 {
+    font-size: 24px;
+  }
+
+  .about .left h3,
+  .about .left h4 {
+    font-size: 16px;
+  }
+
+  .about .icons {
+    flex-direction: column;
+  }
+
+  .about .icons button {
+    font-size: 12px;
+  }
+}
