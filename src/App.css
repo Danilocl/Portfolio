@@ -5,10 +5,78 @@
   padding: 60px 42px;
   background: #171717;
   border: 1px solid #27272A;
-  margin-top: -100px;
+  margin-top: 250px;
   border-radius: 14px;
   height: 350px;
   min-height: 350px;
+}
+
+.works {
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  padding: 60px 42px;
+  background: #171717;
+  border: 1px solid #27272A;
+  margin-top: 30px;
+  border-radius: 14px;
+  height: 100%;
+  min-height: 350px;
+  flex-direction: column;
+}
+
+.description {
+  margin-bottom: 10px;
+  line-height: 2;
+}
+
+.works .item {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.works .item img {
+  width: 320px;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.works .item .details .item-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.works .item .details .icon-link {
+  color: white;
+}
+
+.works .item .details .item-info .icon-link {
+  color: white;
+}
+
+.works .item .details .item-info .year-badge {
+  border-radius: 10px;
+  background-color: #4CAF50;
+  width: 3rem;
+  text-align: center;
+}
+
+.works .item .details .item-info h4 {
+  text-align: center;
+  padding-top: 10px;
+  color: yellow;
+}
+
+.works .item .details .item-info .iconItem {
+  text-align: center;
+  padding-top: 5px;
+  color: rgb(228, 228, 172);
+  height: 20px;
 }
 
 .about .left {
@@ -19,15 +87,20 @@
 
 .about .left button.email,
 .about .left button.resume {
-  color: #BDBDBD;
+  color: #ffffff;
   border: 1px solid #27272A;
   background: #171717;
+  font-size: medium;
 }
 
 .about .left button.email:hover,
-.about .left button.resume:hover {
+.about .left a.resume:hover {
   background: #000;
   cursor: pointer;
+}
+
+.about .left a.resume {
+  color: #ffffff;
 }
 
 .about .left h3 {
@@ -40,6 +113,14 @@
   gap: 10px;
   margin-top: 20px;
   flex-wrap: wrap;
+}
+
+.about .icons .icon-link .icon {
+  color: white;
+}
+
+.about .icons .icon-link:hover .icon {
+  color: #ccc;
 }
 
 .about .icons .icon:hover {

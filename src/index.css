@@ -17,4 +17,8 @@ body {
   overflow: hidden;
   margin-top: -200px;
   color: aliceblue;
+  resize: both;
+  overflow: auto;
 }
+
+
