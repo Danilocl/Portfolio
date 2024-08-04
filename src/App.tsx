@@ -72,8 +72,7 @@ function App() {
         <div className="item">
           <img src={currency} alt='weather' />
           <div className="details">
-            <a href='https://abouttheweather.netlify.app/' target="_blank" rel="noopener noreferrer"
-              className='icon-link'><h3>Currency Converter</h3></a>
+            <h3>Currency Converter</h3>
             <div className="item-info">
               <div className="year-badge">2024</div>
               <h4>React</h4>
