@@ -153,10 +153,9 @@
   font-size: 13px;
 }
 
-.about .right a.online i,
-footer a.online i {
+.about .right .online i {
   color: #4CAF50;
-  font-size: 9px;
+  font-size: 15px;
 }
 
 .about .right img {

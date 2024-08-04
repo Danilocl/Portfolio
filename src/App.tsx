@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub, faJs } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import profileImage from './assets/images/profile.jpg';
 import weatherGif from './assets/images/weather-app.gif';
@@ -44,7 +44,7 @@ function App() {
           </div>
         </div>
         <div className="right">
-          <a className="online"><i className="fas fa-circle"></i> Available For Job</a>
+          <div className="online"><i className="fas fa-circle"></i> Available For Job</div>
           <img src={profileImage} alt="Profile" />
         </div>
       </div>
